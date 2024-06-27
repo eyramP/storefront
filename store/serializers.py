@@ -1,5 +1,4 @@
 from decimal import Decimal
-from xmlrpc.client import ServerProxy
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
